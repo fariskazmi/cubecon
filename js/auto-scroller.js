@@ -1,3 +1,4 @@
+var slide_threshold = 50;
 var slide = 0;
 var num_slide = $('.slide').length;
 
@@ -26,8 +27,8 @@ function scroll_to_slide(i) {
   }
 }
 
-var scrolling = function(e) {
-  if (Math.abs(e.deltaY) > 50) {
+scrolling = function(e) {
+  if (Math.abs(e.deltaY) > slide_threshold) {
     window.removeEventListener('wheel', scrolling, true);
     window.removeEventListener('scroll', scrolling, true);
     if (e.deltaY > 0) {
@@ -45,3 +46,6 @@ var scrolling = function(e) {
 
 window.addEventListener('wheel', scrolling, true);
 window.addEventListener('scroll', scrolling, true);
+if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) {
+    slide_threshold = 0;
+}
