@@ -85,13 +85,13 @@
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url("/pics/construction1.jpg");
+  background-image: url("/cubecon/pics/construction1.jpg");
 }
 .card:nth-child(2):before {
-  background-image: url("/pics/construction5.jpg");
+  background-image: url("/cubecon/pics/construction5.jpg");
 }
 .card:nth-child(3):before {
-  background-image: url("/pics/construction9.jpg");
+  background-image: url("/cubecon/pics/construction9.jpg");
 }
 
 .content {
