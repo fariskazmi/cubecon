@@ -1,19 +1,4 @@
-    .betwen-slides-inner {
-        height: 50vh !important;
-        background-color: black;
-    }
-    
-    .betwen-slides {
-        min-height: 500px !important;
-        background-color: black;
-        position: absolute;
-        z-index: 10000000000000000000000000;
-        width: 100vw;
-        background-size: cover;
-        background-position: fixed;
-        display: inline-block;
-    }
-    
+
     .brand-logo {
         position: absolute;
         z-index: 10000;

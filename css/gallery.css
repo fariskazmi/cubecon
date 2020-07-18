@@ -53,7 +53,7 @@
     overflow: hidden;
   }
   .page {
-    width: 80%;
+    width: 100%;
     padding: 10px;
   }
   @media (max-width: 600px) {
@@ -127,7 +127,6 @@
   }
   .content-gallery {
     position: absolute;
-    padding: 20px 40px;
     top: 0;
     right: 0;
     bottom: 0;
