@@ -61,7 +61,7 @@ span {
   #slide3 {background-color: #d9d9d9;
     background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);} 
   #slide4 {background: linear-gradient(rgb(133, 186, 255), black);;}
-  #slide5 {background: #000000;}
+  #slide5 {background: #000000; height: 0% !important;}
 
   .div-section {
     position: relative;
