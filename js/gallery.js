@@ -3,32 +3,32 @@ var app = angular.module('app', ['ngAnimate'])
 app.controller('mainCtrl', function($scope) {
 	$scope.boxes = [{
 		name: 'Friends',
-        image: '/pics/construction3.jpg',
+        image: '/cubecon/pics/construction3.jpg',
         text: "First text",
         heading: "First heading"
 	},{
 		name: 'Free',
-		image: '/pics/construction4.jpg',
+		image: '/cubecon/pics/construction4.jpg',
         text: "Second text",
         heading: "Second heading"
 	},{
 		name: 'Explore',
-		image: '/pics/construction6.jpg',
+		image: '/cubecon/pics/construction6.jpg',
         text: "Third text",
         heading: "Third heading"
 	}, {
 		name: 'Vast',
-		image: '/pics/construction7.jpg',
+		image: '/cubecon/pics/construction7.jpg',
         text: "Fourth text",
         heading: "Fourth heading"
 	}, {
 		name: 'Playful',
-		image: '/pics/construction8.jpg',
+		image: '/cubecon/pics/construction8.jpg',
         text: "Fifth text",
         heading: "Fifth heading"
 	}, {
 		name: 'Grand',
-		image: '/pics/commercial-interior-office-construction.jpg',
+		image: '/cubecon/pics/commercial-interior-office-construction.jpg',
         text: "Sixth text",
         heading: "Sixth heading"
 	}, ];
