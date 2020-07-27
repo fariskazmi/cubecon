@@ -202,14 +202,14 @@
   }
   
   .contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cubecon/pics/construction2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/pics/construction2.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
   }
   
   .work {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cubecon/pics/construction3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/pics/construction3.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
