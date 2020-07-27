@@ -59,7 +59,7 @@ span {
   #slide1 {background:linear-gradient(rgba(255, 0, 0, 0) 0%, rgb(255, 255, 255) 50%);}
   #slide2 {background-color: #d9d9d9;
     background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);} 
-  #slide3 {background-image: url("/pics/tools.jpg"); background-attachment: fixed;} 
+  #slide3 {background-image: url("/cubecon/pics/tools.jpg"); background-attachment: fixed;} 
   #slide4 {background-color: #d9d9d9;
     background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);}
   #slide5 {background: #000000; height: 0% !important;}
